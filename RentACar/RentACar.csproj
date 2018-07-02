@@ -46,14 +46,71 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="FormAracKirala.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="FormAracKirala.Designer.cs">
+      <DependentUpon>FormAracKirala.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormGiris.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormGiris.Designer.cs">
+      <DependentUpon>FormGiris.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormKiraUyeOl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormKiraUyeOl.Designer.cs">
+      <DependentUpon>FormKiraUyeOl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSifreUnuttum.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSifreUnuttum.Designer.cs">
+      <DependentUpon>FormSifreUnuttum.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormUyeOl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormUyeOl.Designer.cs">
+      <DependentUpon>FormUyeOl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FromHakkinda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FromHakkinda.Designer.cs">
+      <DependentUpon>FromHakkinda.cs</DependentUpon>
+    </Compile>
+    <Compile Include="index.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="index.Designer.cs">
+      <DependentUpon>index.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FormAracKirala.resx">
+      <DependentUpon>FormAracKirala.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormGiris.resx">
+      <DependentUpon>FormGiris.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormKiraUyeOl.resx">
+      <DependentUpon>FormKiraUyeOl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSifreUnuttum.resx">
+      <DependentUpon>FormSifreUnuttum.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormUyeOl.resx">
+      <DependentUpon>FormUyeOl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FromHakkinda.resx">
+      <DependentUpon>FromHakkinda.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="index.resx">
+      <DependentUpon>index.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
